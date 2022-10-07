@@ -1,0 +1,18 @@
+{
+	"Infogempa":{
+		"gempa":{
+			"Tanggal":"03 Okt 2022",
+			"Jam":"19:11:59 WIB",
+			"DateTime":"2022-10-03T12:11:59+00:00",
+			"Coordinates":"-5.35,102.57",
+			"Lintang":"5.35 LS",
+			"Bujur":"102.57 BT",
+			"Magnitude":"4.1",
+			"Kedalaman":"2 km",
+			"Wilayah":"Pusat gempa berada di laut 33 km tenggara Enggano",
+			"Potensi":"Gempa ini dirasakan untuk diteruskan pada masyarakat",
+			"Dirasakan":"II Enggano",
+			"Shakemap":"20221003191159.mmi.jpg"
+		}
+	}
+}
