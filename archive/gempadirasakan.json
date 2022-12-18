@@ -1,0 +1,186 @@
+{
+  "Infogempa": {
+    "gempa": [
+      {
+        "Tanggal": "17 Des 2022",
+        "Jam": "04:50:50 WIB",
+        "DateTime": "2022-12-16T21:50:50+00:00",
+        "Coordinates": "-6.25,105.04",
+        "Lintang": "6.25 LS",
+        "Bujur": "105.04 BT",
+        "Magnitude": "5.1",
+        "Kedalaman": "10 km",
+        "Wilayah": "Pusat gempa berada di laut 75 km BaratLaut SUMUR",
+        "Dirasakan": "III Lampung Selatan, II Bandar Lampung, II - III Pesawaran, II-III Kotabumi, II-III Pringsewu, II Metro , II Lampung Tengah, II Cinangka"
+      },
+      {
+        "Tanggal": "16 Des 2022",
+        "Jam": "23:05:37 WIB",
+        "DateTime": "2022-12-16T16:05:37+00:00",
+        "Coordinates": "-6.77,107.12",
+        "Lintang": "6.77 LS",
+        "Bujur": "107.12 BT",
+        "Magnitude": "2.2",
+        "Kedalaman": "10 km",
+        "Wilayah": "Pusat gempa berada didarat 6 km BaratLaut Kab. Cianjur",
+        "Dirasakan": "II Kab. Cianjur"
+      },
+      {
+        "Tanggal": "16 Des 2022",
+        "Jam": "10:00:35 WIB",
+        "DateTime": "2022-12-16T03:00:35+00:00",
+        "Coordinates": "-3.93,122.43",
+        "Lintang": "3.93 LS",
+        "Bujur": "122.43 BT",
+        "Magnitude": "3.1",
+        "Kedalaman": "6 km",
+        "Wilayah": "Pusat gempa berada di darat 0.6 km TimurLaut Morosi",
+        "Dirasakan": "II Konawe Selatan"
+      },
+      {
+        "Tanggal": "16 Des 2022",
+        "Jam": "05:47:11 WIB",
+        "DateTime": "2022-12-15T22:47:11+00:00",
+        "Coordinates": "-6.91,105.35",
+        "Lintang": "6.91 LS",
+        "Bujur": "105.35 BT",
+        "Magnitude": "4.1",
+        "Kedalaman": "13 km",
+        "Wilayah": "Pusat gempa berada di laut 37 km BaratDaya Sumur",
+        "Dirasakan": "II-III Sumur, II Lebak"
+      },
+      {
+        "Tanggal": "15 Des 2022",
+        "Jam": "16:45:54 WIB",
+        "DateTime": "2022-12-15T09:45:54+00:00",
+        "Coordinates": "-8.23,115.57",
+        "Lintang": "8.23 LS",
+        "Bujur": "115.57 BT",
+        "Magnitude": "4.1",
+        "Kedalaman": "10 km",
+        "Wilayah": "Pusat gempa berada di laut 14 km Timurlaut Karangasem",
+        "Dirasakan": "II - III Karangasem, II Lombok Barat"
+      },
+      {
+        "Tanggal": "15 Des 2022",
+        "Jam": "15:13:21 WIB",
+        "DateTime": "2022-12-15T08:13:21+00:00",
+        "Coordinates": "-8.22,115.61",
+        "Lintang": "8.22 LS",
+        "Bujur": "115.61 BT",
+        "Magnitude": "3.6",
+        "Kedalaman": "12 km",
+        "Wilayah": "Pusat gempa berada di laut 17 km TimurLaut Karangasem",
+        "Dirasakan": "II Karangasem, II Tejakula"
+      },
+      {
+        "Tanggal": "15 Des 2022",
+        "Jam": "10:31:09 WIB",
+        "DateTime": "2022-12-15T03:31:09+00:00",
+        "Coordinates": "2.88,127.50",
+        "Lintang": "2.88 LU",
+        "Bujur": "127.50 BT",
+        "Magnitude": "5.0",
+        "Kedalaman": "13 km",
+        "Wilayah": "Pusat gempa berada di laut 127 km BaratLaut Daruba",
+        "Dirasakan": "II Morotai Selatan"
+      },
+      {
+        "Tanggal": "14 Des 2022",
+        "Jam": "23:13:38 WIB",
+        "DateTime": "2022-12-14T16:13:38+00:00",
+        "Coordinates": "-3.72,127.90",
+        "Lintang": "3.72 LS",
+        "Bujur": "127.90 BT",
+        "Magnitude": "3.0",
+        "Kedalaman": "10 km",
+        "Wilayah": "Pusat gempa berada di laut 31 km barat Ambon",
+        "Dirasakan": "II Hative Besar"
+      },
+      {
+        "Tanggal": "14 Des 2022",
+        "Jam": "19:58:22 WIB",
+        "DateTime": "2022-12-14T12:58:22+00:00",
+        "Coordinates": "-7.50,106.76",
+        "Lintang": "7.50 LS",
+        "Bujur": "106.76 BT",
+        "Magnitude": "3.9",
+        "Kedalaman": "24 km",
+        "Wilayah": "Pusat gempa berada di laut 61 km Tenggara Kab. Sukabumi",
+        "Dirasakan": "II - III Sukabumi"
+      },
+      {
+        "Tanggal": "14 Des 2022",
+        "Jam": "18:13:40 WIB",
+        "DateTime": "2022-12-14T11:13:40+00:00",
+        "Coordinates": "-8.22,115.59",
+        "Lintang": "8.22 LS",
+        "Bujur": "115.59 BT",
+        "Magnitude": "3.3",
+        "Kedalaman": "10 km",
+        "Wilayah": "Pusat gempa berada di laut 16 km Timur Laut Karangasem",
+        "Dirasakan": "II Karangasem"
+      },
+      {
+        "Tanggal": "14 Des 2022",
+        "Jam": "17:44:24 WIB",
+        "DateTime": "2022-12-14T10:44:24+00:00",
+        "Coordinates": "-8.20,115.56",
+        "Lintang": "8.20 LS",
+        "Bujur": "115.56 BT",
+        "Magnitude": "3.6",
+        "Kedalaman": "10 km",
+        "Wilayah": "Pusat gempa berada di laut 16 km timur laut Karangasem",
+        "Dirasakan": "II Karangasem, II Kuta, II Lombok Barat"
+      },
+      {
+        "Tanggal": "14 Des 2022",
+        "Jam": "14:40:18 WIB",
+        "DateTime": "2022-12-14T07:40:18+00:00",
+        "Coordinates": "-8.24,115.58",
+        "Lintang": "8.24 LS",
+        "Bujur": "115.58 BT",
+        "Magnitude": "4.5",
+        "Kedalaman": "10 km",
+        "Wilayah": "Pusat gempa berada di laut 13 km TimurLaut Karangasem",
+        "Dirasakan": "III Karangasem, II Denpasar, II Gianyar, II Kuta, II Klungkung, II Tejakula, II Mataram, II Lombok Barat, II Lombok Utara"
+      },
+      {
+        "Tanggal": "14 Des 2022",
+        "Jam": "14:39:29 WIB",
+        "DateTime": "2022-12-14T07:39:29+00:00",
+        "Coordinates": "-8.22,115.57",
+        "Lintang": "8.22 LS",
+        "Bujur": "115.57 BT",
+        "Magnitude": "4.4",
+        "Kedalaman": "10 km",
+        "Wilayah": "Pusat gempa berada di laut TimurLaut Karangasem",
+        "Dirasakan": "III Karangasem, II - III Mataram, II - III Lombok Barat, II Denpasar, II Gianyar, II Klungkung, II Kuta, II Tejakula, II Lombok Utara"
+      },
+      {
+        "Tanggal": "14 Des 2022",
+        "Jam": "05:09:28 WIB",
+        "DateTime": "2022-12-13T22:09:28+00:00",
+        "Coordinates": "-9.44,120.47",
+        "Lintang": "9.44 LS",
+        "Bujur": "120.47 BT",
+        "Magnitude": "4.8",
+        "Kedalaman": "59 km",
+        "Wilayah": "Pusat gempa berada di laut 33 km TimurLaut Waingapu",
+        "Dirasakan": "II Waingapu"
+      },
+      {
+        "Tanggal": "14 Des 2022",
+        "Jam": "03:17:22 WIB",
+        "DateTime": "2022-12-13T20:17:22+00:00",
+        "Coordinates": "-8.18,115.59",
+        "Lintang": "8.18 LS",
+        "Bujur": "115.59 BT",
+        "Magnitude": "3.9",
+        "Kedalaman": "10 km",
+        "Wilayah": "Pusat gempa berada di laut 20 km timurlaut Karangasem",
+        "Dirasakan": "II Karangasem"
+      }
+    ]
+  }
+}

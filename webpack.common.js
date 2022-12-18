@@ -1,6 +1,9 @@
+/* eslint-disable import/no-extraneous-dependencies */
+
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
- 
+const CopyWebpackPlugin = require('copy-webpack-plugin');
+
 module.exports = {
   entry: './src/index.js',
   output: {
@@ -9,36 +12,30 @@ module.exports = {
   },
   module: {
     rules: [
-			/* style and css loader */
-      { 
+      {
         test: /\.css$/,
         use: [
           { loader: 'style-loader' },
-          { loader: 'css-loader' }
-        ]
+          { loader: 'css-loader' },
+        ],
       },
-      {
-        test: /\.(gif|png|jpeg|svg|jpg)$/i,
-        use: [
-          {
-            loader: 'file-loader',
-            options: {
-              name: '[name].[ext]',
-              outputPath: 'img/',
-              publicPath: 'img/'
-            }
-          }
-        ]
-      }
     ],
   },
-
-  /* plugin */
   plugins: [
-    /* HTML Webpack Plugin */
     new HtmlWebpackPlugin({
       template: './src/index.html',
       filename: 'index.html',
+    }),
+    new CopyWebpackPlugin({
+      patterns: [
+        {
+          from: path.resolve(__dirname, 'src/img'),
+          to: path.resolve(__dirname, 'dist/img'),
+          globOptions: {
+            ignore: ['**/images/**'],
+          },
+        },
+      ],
     }),
   ],
 };

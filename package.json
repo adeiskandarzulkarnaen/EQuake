@@ -4,11 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "src": "http-server ./src",
-    "dist": "http-server ./dist",
-    "start": "http-server .",
-    "bundle": "webpack --config webpack.prod.js",
-    "start-dev": "webpack serve -c webpack.dev.js"
+    "test": "http-server ./dist",
+    "build": "webpack --config webpack.prod.js",
+    "start-dev": "webpack serve -c webpack.dev.js",
+    "lint": "npx eslint ./src"
   },
   "author": "adeiskandarzulkarnaen",
   "license": "ISC",
@@ -16,8 +15,11 @@
     "@babel/core": "^7.19.3",
     "@babel/preset-env": "^7.19.3",
     "babel-loader": "^8.2.5",
+    "copy-webpack-plugin": "^11.0.0",
     "css-loader": "^6.7.1",
-    "file-loader": "^6.2.0",
+    "eslint": "^8.30.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
     "html-webpack-plugin": "^5.5.0",
     "style-loader": "^3.3.1",
     "webpack": "^5.74.0",
@@ -28,6 +30,6 @@
   "dependencies": {
     "node-fetch": "^3.2.10",
     "regenerator-runtime": "^0.13.9",
-    "sweetalert": "^2.1.2"
+    "sweetalert2": "^11.4.8"
   }
 }

@@ -1,20 +1,20 @@
-class MainBanner extends HTMLElement{
-  constructor(){
+class MainBanner extends HTMLElement {
+  constructor() {
     super();
-    this.shadowBanner = this.attachShadow({mode : 'open'});
+    this.shadowBanner = this.attachShadow({ mode: 'open' });
   }
-  
-  connectedCallback(){
-    this.src = this.getAttribute('src') || "./img/earth.png" ; 
+
+  connectedCallback() {
+    this.src = this.getAttribute('src') || './img/earth.png';
     this.render();
   }
-  
-  set clickEvent(event){
-    this._clickEvent = event ;
+
+  set clickEvent(event) {
+    this._clickEvent = event;
     this.render(); /* harus ada render */
   }
-  
-  render(){
+
+  render() {
     this.shadowBanner.innerHTML = `
       <style>
         :host {
@@ -30,6 +30,13 @@ class MainBanner extends HTMLElement{
           flex-basis: 55%;
           align-self: center;
           padding: 2.5rem 0 2.5rem 3rem;
+        }
+        .flex-item-caption > p > a {
+          text-decoration: none;
+          color: #5dd782;
+        }        
+        .flex-item-caption > p > a:hover {
+          color: #0d6efd;
         }        
         .flex-item-img {
           flex-basis: 45%;
@@ -91,8 +98,8 @@ class MainBanner extends HTMLElement{
         <div class="flex-item-caption">
           <h5><b>Adakah anda merasakan gempa bumi ??</b></h5>
           <h3><b>CARI TAHU SEKARANG !!</b></h3>
-          <p>Dengan EQuake kamu bisa tahu kejadian gempa bumi terupdate di seluruh wilayah indonesia. Dengan data
-            terpercaya dari BMKG
+          <p>Dengan EQuake kamu bisa tahu kejadian gempa bumi terupdate di seluruh wilayah indonesia.  
+          Dengan data terpercaya dari <a href="https://bmkg.go.id">BMKG</a>.
           </p>
           <button class="btn" id="autoUpdateButton">Gempa Terbaru</button>
         </div>
@@ -101,17 +108,17 @@ class MainBanner extends HTMLElement{
         </div>
       </div>
     `;
-    this.shadowBanner.querySelector('#autoUpdateButton').addEventListener('click', this._clickEvent); 
+    this.shadowBanner.querySelector('#autoUpdateButton').addEventListener('click', this._clickEvent);
   }
-  
-  attributesChangedCallback(name, oldValue, newValue){
-		this[name] = newValue ;
-		this.render();
-	}
-  
-	static get observedAttributes() {
-		return ['src'];
-	}
+
+  attributesChangedCallback(name, oldValue, newValue) {
+    this[name] = newValue;
+    this.render();
+  }
+
+  static get observedAttributes() {
+    return ['src'];
+  }
 }
 
-customElements.define('main-banner', MainBanner)
+customElements.define('main-banner', MainBanner);
